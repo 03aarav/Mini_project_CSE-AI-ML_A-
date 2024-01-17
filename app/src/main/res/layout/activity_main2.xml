@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/top_background2"
+        android:scaleType="fitXY">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:textColor="#6474E8"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:textSize="35dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account"
+        android:textColor="#6373E8"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:textSize="35dp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+        android:drawableLeft="@drawable/password"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/password"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/btn_arrow2"/>
+
+
+    <TextView
+        android:id="@+id/LoginUpPageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already SignUp? Login"
+        android:textAlignment="center"
+        android:textColor="#485CEC"
+
+        android:layout_marginTop="2dp"
+        android:textSize="15dp"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

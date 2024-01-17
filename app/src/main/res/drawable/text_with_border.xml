@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Border for pressed state -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#808080" /> <!-- Pressed border color (gray in this case) -->
+                </shape>
+            </item>
+            <!-- Icon layer -->
+            <item android:left="8dp">
+                <bitmap android:src="@drawable/facebook"                    android:gravity="center_vertical|start" />
+            </item>
+        </layer-list>
+    </item>
+    <!-- Default state -->
+    <item>
+        <layer-list>
+            <!-- Border for default state -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#000000" /> <!-- Default border color (black in this case) -->
+                </shape>
+            </item>
+            <!-- Icon layer -->
+            <item android:left="8dp">
+                <bitmap android:src="@drawable/facebook"
+                    android:gravity="center_vertical|start" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

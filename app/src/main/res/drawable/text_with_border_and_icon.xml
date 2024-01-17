@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" /> <!-- Border color (black in this case) -->
+        </shape>
+    </item>
+    <!-- Icon layer -->
+    <item android:right="8dp"> <!-- Adjust the right padding as needed -->
+        <bitmap android:src="@drawable/facebook"
+            android:gravity="center_vertical|end" />
+    </item>
+</layer-list>
